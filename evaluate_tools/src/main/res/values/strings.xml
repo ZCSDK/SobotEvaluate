@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">evaluate_tools</string>
+    <string name="sobot_temporarily_not_evaluation">暂不评价</string>
+    <string name="sobot_question">请问 [%1$s] 是否解决了您的问题？</string>
+    <string name="sobot_evaluate_yes">已解决</string>
+    <string name="sobot_evaluate_no">未解决</string>
+    <string name="sobot_please_evaluate">请您对 [%1$s] 进行评价</string>
+    <string name="sobot_problem">存在哪些问题</string>
+    <string name="sobot_btn_submit_text">提交评价</string>
+    <string name="sobot_robot_customer_service_evaluation">机器人客服评价</string>
+    <string name="sobot_what_are_the_problems">存在以下哪些问题</string>
+    <string name="sobot_evaluation_completed_exit">提交评价后会话将结束</string>
+    <string name="sobot_please_evaluate_this_service">请您对本次服务进行评价</string>
+    <string name="sobot_required">（必填）</string>
+    <string name="sobot_edittext_hint">欢迎给我们的服务提建议~</string>
+    <string name="sobot_the_label_is_required">标签为必选</string>
+    <string name="sobot_suggestions_are_required">建议为必填</string>
+</resources>

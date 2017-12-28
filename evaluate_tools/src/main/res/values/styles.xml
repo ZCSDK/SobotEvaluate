@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="sobot_clearHistoryDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/sobot_popupwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/sobot_popupwindow_out</item>
+    </style>
+
+    <style name="sobot_rb_style">
+        <item name="android:textColor">@drawable/sobot_btn_text_color_selector</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/sobot_evaluate_btn_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">27dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="sobot_roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/sobot_rating_yellow</item>
+        <item name="android:numStars">5</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="sobot_color_evaluate_bg_normal">#ffffff</color>
+    <color name="sobot_text_btn_bg">#0daeaf</color>
+    <color name="sobot_text_btn_bg_press">#800daeaf</color>
+    <color name="sobot_text_btn_color">#ffffff</color>
+    <color name="sobot_text_btn_color_pressed">#80ffffff</color>
+
+</resources>
