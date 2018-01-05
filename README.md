@@ -11,6 +11,7 @@ compile 'com.sobot.evaluate:evaluate_tools:1.2'
 在Activity类的oNcreate方法中添加以下代码
 
 TextView tv = (TextView) findViewById(R.id.tv);
+
 tv.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
