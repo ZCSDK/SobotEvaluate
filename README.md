@@ -29,9 +29,7 @@ tv.setOnClickListener(new View.OnClickListener() {
          * @param robotCommentTitle     String      机器人评价语，用“,”隔开的String字符串
 
          * @param currentRobotFlag      String      当前评价的机器人编号
-
          * @param robotName     String      机器人名称
-
          * @param current_model     int     当前评价的是机器人还是人工客服。301是机器人  302  是人工客服
          * @param commentType       int     这次评价是客服邀请评价还是用户主动评价。1是主动评价  0是邀请评价
          * @param customName        String      人工客服名称
