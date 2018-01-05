@@ -1,7 +1,11 @@
-# SobotEvaluate
+# SobotEvaluate   评价
 使用方法
 
+在build.gradle 中添加远程依赖
 compile 'com.sobot.evaluate:evaluate_tools:1.2'
+
+在Activity的布局文件中添加一个id为tv的TextView
+在Activity类的oNcreate方法中添加以下代码
 
 TextView tv = (TextView) findViewById(R.id.tv);
 tv.setOnClickListener(new View.OnClickListener() {
