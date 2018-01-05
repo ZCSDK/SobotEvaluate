@@ -23,11 +23,8 @@ tv.setOnClickListener(new View.OnClickListener() {
          * 创建评价的Dialog
 
          * @param context       Context     上下文对象
-
          * @param isFinish      boolean     是否显示暂不评价按钮
-
          * @param robotCommentTitle     String      机器人评价语，用“,”隔开的String字符串
-
          * @param currentRobotFlag      String      当前评价的机器人编号
          * @param robotName     String      机器人名称
          * @param current_model     int     当前评价的是机器人还是人工客服。301是机器人  302  是人工客服
