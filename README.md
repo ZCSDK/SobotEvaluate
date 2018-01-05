@@ -13,15 +13,10 @@ compile 'com.sobot.evaluate:evaluate_tools:1.2'
 TextView tv = (TextView) findViewById(R.id.tv);
 
 tv.setOnClickListener(new View.OnClickListener() {
-
     @Override
-
     public void onClick(View view) {
-
         /*
-
          * 创建评价的Dialog
-
          * @param context       Context     上下文对象
          * @param isFinish      boolean     是否显示暂不评价按钮
          * @param robotCommentTitle     String      机器人评价语，用“,”隔开的String字符串
