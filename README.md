@@ -16,6 +16,7 @@ tv.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         /*
+
          * 创建评价的Dialog
          * @param context       Context     上下文对象
          * @param isFinish      boolean     是否显示暂不评价按钮
